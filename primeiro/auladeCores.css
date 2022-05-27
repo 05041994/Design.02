@@ -1,0 +1,13 @@
+body{
+    background-image: url(Cris1.png) , url(footer-top.svg)
+    background-repeat: no-repeat, repeat;
+    background-position: top right();
+
+    background-attachment: fixed, scroll;
+    background-size: contain, 100% 100%;
+    background-image:radial-gradient(#000000,#FFFFFF);
+    color: #FFFFFF;
+}
+h1,h2{
+    color:#696969;
+}
