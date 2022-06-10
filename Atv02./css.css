@@ -1,0 +1,18 @@
+ol{
+    padding: 0;
+    text-align: center;    
+}
+ol li{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 27px;
+}
+
+li a:hover{
+    border: 1px solid #00FFFF;
+    padding: 0.2em 0.5em;
+}
+li{
+    flex-grow: 1em;
+    background-color: aquamarine;    
+}
