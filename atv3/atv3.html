@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 5em;
+        }
+        input{
+            border-radius: 0.2em;
+            border: 1px solid #2111ff;  
+            font-size: 0.7em;
+            padding: 0.7em;
+        }
+        div{
+            margin-bottom: 1em;
+            text-align: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+        <form action="responde.html">
+                <div>
+                    <label for="nome">Nome:</label>
+                        <input type="text" id="nome" required placeholder="Nome"/> 
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                        <input type="email" id="email" required placeholder="E-mail"/>                    
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" required placeholder="Telefone"/>                   
+                </div>
+
+                <div>
+                    <label for="senha">Senha</label>
+                        <input type="password" id="senha" required placeholder="Senha"/>                   
+                </div>
+
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Limpar" />
+                
+                
+        </form>
+
+</body>
+</html>
