@@ -16,3 +16,27 @@ li{
     flex-grow: 1em;
     background-color: aquamarine;    
 }
+
+ol{
+    padding: 10px;
+    text-align: center;    
+}
+ol li{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+li a:hover{
+    border: 0.3em ridge #00ffe1 ;
+    padding: 0.2em 0.1em;
+    color: inherit;
+}
+li{
+    flex-grow: 1em;
+    background-color: aquamarine;    
+}
+a:link{
+    text-decoration: none;
+}
