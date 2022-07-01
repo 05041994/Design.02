@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-color:
+        }
+    </style>
+
+</head>
+<body>
+    <form action="responde.html">
+        <fieldset>
+            <legend>Autenticação</legend>
+            <div>
+                <label for="login">Login</label>
+                <input type="text" id="login" />
+            </div>
+            <div>
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha"/>
+
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Dados passoais</legend>
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome"/>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="tel" />
+            </div>
+            <div>
+                <label for="tel">Telefone: </label>
+                <input type="tel" id="tel"/>
+            </div>
+            <div>
+                <label for="data_nasc">Data de nascimento: </label>
+                <input type="date" id="data_nasc" />
+            </div>
+            <div>
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <option value="RN">Rio Grande Do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                </select>
+            </div>
+            <div>
+                <label for="cidade">Cidade: </label>
+                <input type="text" list="cidades" id="cidade" />
+                <datalist id="cidades">
+                    <option value="natal">Natal: </option>
+                    <option value="santacruz">Santa Cruz</option>
+                    <option value="novacruz">Nova Cruz</option>
+                </datalist>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>             
+            <!-- seve para criar um novo espaço, ex: Div agrupa campos do formulario-->
+            <div>
+                <span>Formação</span>
+                <!-- A tag de span não tem valor cematico... ela tem um espaçozinho. enquanto a div é um bluco -->
+                <label><input type="radio" name="formacao" value="medio"/> Ensino Medio</label>
+                <label><input type="radio" name="formacao" value="superior"/> Superior</label>
+                <label><input type="radio" name="formacao" value="mestrado"/> Mestrado</label>
+            </div>
+            <div>
+                <span>Estado Civil</span>
+                <label><input type="radio" name="est_civl" value="solteiro"/>Solteiro</label>
+                <label><input type="radio" name="est_civl" value="casado"/>Casado</label>
+            </div>
+            <div>
+                <span>Áreas de interesse:  </span>
+                <label><input type="checkbox" name="areas" value="programacao"/>Programação</label>
+                <label><input type="checkbox" name="areas" value="design"/>Design</label>
+                <label><input type="checkbox" name="areas" value="manutecao"/>Manuteção</label>
+            </div>
+            <div>
+                <label for="curriculo">Curriculo</label>
+                <input type="file" id="curriculo"/>
+            </div>
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem"></textarea>
+            </div>
+        </fieldset>
+            <div> 
+                <input type="submit" value="Enviar">
+            </div>
+            
+
+    </form>
+
+</body>
+
+</html>
