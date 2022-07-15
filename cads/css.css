@@ -1,0 +1,30 @@
+span{
+    background-color: burlywood;
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+    /* Quando um Elemento é inline a altura e largura não da certo */
+}
+div{
+    background-color: cadetblue;
+    width: 10em;
+    height: 15em;
+    display: inline-block;
+    vertical-align: top; 
+    border: 2px solid white;
+    border-radius: 5em;
+    box-shadow: 0 0 1em blue;
+    margin: 1em;
+    padding: 1em;
+    /* box-sizing: border-box; tem dois valores. quando aplicado ele mantem o elemento a mesma largura*/
+
+}
+body{
+    background-color: #00ffff;
+    margin: 100px 100px 0 50px;
+}
+main{
+    margin: 0 auto;
+    width: 65em;
+
+}
