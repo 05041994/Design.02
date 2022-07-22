@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display: inline-block;
+}
+main section{
+    display: flex;
+}
+footer{
+    background-color: darkgray;
+    padding: 5em;
+}
+header{
+    background-image: linear-gradient( #FF0000, #00FFFF, blue);
+    padding: 2em;
+}
+nav ol{
+    text-align: right;
+}
+nav li{
+    margin-right: 5em;
+}
+nav h1{
+    margin-top: 2em;
+}
+
+
+
